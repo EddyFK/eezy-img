@@ -1,0 +1,24 @@
+.eezy-img-wrapper {
+  position: relative;
+  overflow: hidden; }
+  .eezy-img-wrapper .eezy-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0); }
+  .eezy-img-wrapper.top .eezy-img {
+    top: 0;
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0); }
+  .eezy-img-wrapper.bottom .eezy-img {
+    bottom: 0;
+    top: auto;
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0); }
+  .eezy-img-wrapper .portait {
+    width: 100%;
+    height: auto; }
+  .eezy-img-wrapper .landscape {
+    width: auto;
+    height: 100%; }

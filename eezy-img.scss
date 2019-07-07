@@ -1,0 +1,33 @@
+.eezy-img-wrapper {
+	
+	position:relative;
+	overflow:hidden;
+	
+	.eezy-img{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate3d(-50%,-50%,0);
+	}
+
+	&.top .eezy-img{
+		top: 0;
+		transform: translate3d(-50%,0,0);
+	}
+	&.bottom .eezy-img{
+		bottom: 0;
+		top:auto;
+		transform: translate3d(-50%,0,0);
+	}
+
+	.portait{
+		width: 100%;
+		height: auto;
+	}
+	
+	.landscape{
+		width: auto;
+		height: 100%;
+	}
+
+}
