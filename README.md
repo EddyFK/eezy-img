@@ -4,12 +4,12 @@
 Responsive images are vital to fast website loading and SEO. Every millisecond counts. This is a typical example of responsive image:
 
 ```
-<img	src="https://via.placeholder.com/500x900.jpg"
-			srcset="https://via.placeholder.com/500x900.jpg  500w,
-			        https://via.placeholder.com/1024x768.jpg 1024w,
-			       	https://via.placeholder.com/1440x900.jpg 1440w,
-			        https://via.placeholder.com/2400.jpg 2400w"
-			alt="Image">
+<img src="https://via.placeholder.com/500x900.jpg"
+	srcset="https://via.placeholder.com/500x900.jpg  500w,
+	https://via.placeholder.com/1024x768.jpg 1024w,
+	https://via.placeholder.com/1440x900.jpg 1440w,
+	https://via.placeholder.com/2400.jpg 2400w"
+	alt="Image">
 ```
 
 This works as expected, the browser will pick a good resolution. Done. Alternatively you can also use the picture method for more control. When it comes to background images we have less options:
